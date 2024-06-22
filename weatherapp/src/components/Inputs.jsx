@@ -15,7 +15,11 @@ const Inputs = () => {
 <BiCurrentLocation size={30} className="cursor-pointer transition ease-out hover:scale-125"/>
 
  </div>
- <button>+</button>
+ <div className="flex flex-row w-1/4 items-center justify-center" >
+  <button className="text-2xl" >°C </button>
+  <button></button>
+   </div>
+
  </div>
   )
 }
